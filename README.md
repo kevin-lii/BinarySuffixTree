@@ -1,0 +1,3 @@
+To run the code use the function `longest_subsequence` in `main.py`. `longest_subsequence` takes in a list of fileNames (ie. `["sample.1", "sample.2"]`) as its only parameter. `longest_subsequence` will return the length of the longest common byte string and a dictionary that contains the fileName and offset from where the longest common byte string occurred. If you want, you can use the files in `hard/...` and `medium/...` as additional test cases.
+
+Example: `python -c 'from main import *; print(longest_subsequence(["sample.3", "sample.2", "sample.4", "sample.5", "sample.6", "sample.7", "sample.8", "sample.9", "sample.10", "sample.1"]))'` or `python -c 'from main import *; print(longest_subsequence(["hard/" + str(x) + ".bin" for x in range(14)]))'`
